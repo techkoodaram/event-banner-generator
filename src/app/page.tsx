@@ -18,10 +18,10 @@ export default function Home() {
   const [role, setRole] = useState<string>('');
   const [eventDetails, setEventDetails] = useState({
     eventType: 'Meetup',
-    title: 'techKoodaram\'s Tech Talks',
-    date: 'July 25, 2026',
-    venue: 'Ramco Institute of Technology',
-    time: '9.30am to 1.00pm'
+    title: 'techKoodaram\'s Builders Day',
+    date: 'August 22, 2026',
+    venue: 'J.P.College of Engineering',
+    time: '9.30 am to 1.00pm'
   });
 
   // Fixed values as requested
